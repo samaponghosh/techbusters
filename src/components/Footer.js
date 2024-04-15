@@ -7,7 +7,7 @@ export default function Footer() {
 		<div className="footer-top-first">
 			<div className="container py-md-5 py-sm-4 py-3">
 				{/* <!-- footer first section --> */}
-				<h2 className="footer-top-head-w3l font-weight-bold mb-2">Electronics :</h2>
+				<h2 className="footer-top-head-w3l font-weight-bold mb-2">Techbusters: </h2>
 				<p className="footer-main mb-4">
 					If you're considering a new laptop, looking for a powerful new car stereo or shopping for a new HDTV, we make it easy to
 					find exactly what you need at a price you can afford. We offer Every Day Low Prices on TVs, laptops, cell phones, tablets
@@ -22,7 +22,7 @@ export default function Footer() {
 							</div>
 							<div className="col-8 text-form-footer">
 								<h3>Free Shipping</h3>
-								<p>on orders over $100</p>
+								<p>on orders over ₹500</p>
 							</div>
 						</div>
 					</div>
@@ -67,16 +67,16 @@ export default function Footer() {
 								<Link to="/phones">Computers</Link>
 							</li>
 							<li className="mb-3">
-								<Link to="/phones">TV, Audio</Link>
+								<Link to="/appliances">TV, Audio</Link>
 							</li>
 							<li className="mb-3">
-								<Link to="product2.html">Smartphones</Link>
+								<Link to="/phones">Smartphones</Link>
 							</li>
 							<li className="mb-3">
-								<Link to="/phones">Washing Machines</Link>
+								<Link to="/appliances">Washing Machines</Link>
 							</li>
 							<li>
-								<Link to="product2.html">Refrigerators</Link>
+								<Link to="/appliances">Refrigerators</Link>
 							</li>
 						</ul>
 					</div>

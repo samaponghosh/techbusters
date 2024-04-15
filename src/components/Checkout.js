@@ -54,7 +54,7 @@ export default function Checkout() {
 							<tr className="rem1">
 								<td className="invert">1</td>
 								<td className="invert-image">
-									<Link to="single.html">
+									<Link to="/SamsungGalaxy">
 										<img src={image_a} alt=" " className="img-responsive"/>
 									</Link>
 								</td>
@@ -106,7 +106,7 @@ export default function Checkout() {
 							<tr className="rem3">
 								<td className="invert">3</td>
 								<td className="invert-image">
-									<Link to="single.html">
+									<Link to="/SamsungGalaxy">
 										<img src={a4} alt=" " className="img-responsive"/>
 									</Link>
 								</td>

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export default function Navbar() {
   return (
     <div>
-      	<div className="agile-main-top">
+      	{/* <drrriv className="agile-main-top">
 		<div className="container-fluid">
 			<div className="row main-top-w3l py-2">
 				<div className="col-lg-4 header-most-top">
@@ -13,16 +13,16 @@ export default function Navbar() {
 					</p>
 				</div>
 				<div className="col-lg-8 header-right mt-lg-0 mt-2">
-					{/* <!-- header lists --> */}
+					
 					<ul>
-						{/* <li className="text-center border-right text-white">
+						<li className="text-center border-right text-white">
 							<Link className="play-icon popup-with-zoom-anim text-white" to="#small-dialog1">
 								<i className="fas fa-map-marker mr-2"></i>Select Location</Link>
-						</li> */}
-						{/* <li className="text-center border-right text-white">
+						</li>
+						<li className="text-center border-right text-white">
 							<Link to="#" data-toggle="modal" data-target="#exampleModal" className="text-white">
 								<i className="fas fa-truck mr-2"></i>Track Order</Link>
-						</li> */}
+						</li>
 						<li className="text-center border-right text-white">
 							<i className="fas fa-phone mr-2"></i> +918697828148
 						</li>
@@ -35,11 +35,10 @@ export default function Navbar() {
 								<i className="fas fa-sign-out-alt mr-2"></i>Register </Link>
 						</li>
 					</ul>
-					{/* <!-- //header lists --> */}
 				</div>
 			</div>
 		</div>
-	</div>
+	</drrriv> */}
 	<div className="header-bot">
 		<div className="container">
 			<div className="row header-bot_inner_wthreeinfo_header_mid">
@@ -47,7 +46,7 @@ export default function Navbar() {
 				<div className="col-md-3 logo_agile">
 					<h1 className="text-center">
 						<Link to="/" className="font-weight-bold font-italic">
-							<img src="images/logo2.png" alt=" " className="img-fluid"/>Electro Store
+							Techbusters
 						</Link>
 					</h1>
 				</div>
@@ -262,7 +261,7 @@ export default function Navbar() {
 						</li> */}
 						<li className="nav-item">
 						</li>
-							<div class="dropdownw">
+							{/* <div class="dropdownw">
   								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
     								Dropdown button
   								</button>
@@ -271,7 +270,7 @@ export default function Navbar() {
 								<li><Link class="dropdown-item" to="#">Another action</Link></li>
 								<li><Link class="dropdown-item" to="#">Something else here</Link></li>
 							</ul>
-							</div>
+							</div> */}
 					
 						<li className="nav-item">
 							<Link className="nav-link" to="/checkout">Cart</Link>
